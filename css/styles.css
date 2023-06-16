@@ -33,10 +33,6 @@ a{
     align-items: center;
 }
 
-.parrafo{
-    padding: 0;
-}
-
 .info {
     color: #757575;
     font-weight: 500;
@@ -55,7 +51,7 @@ header a {
     width: 1200px;
     padding: 5px;
     margin: auto;
-     border: 2px dashed red;
+    
 }
 
 .card{
@@ -65,7 +61,7 @@ header a {
     padding: 0;
     list-style: none;
     justify-content: space-evenly;
-     border: 2px dashed red;
+    
 }
 
 .item {
@@ -76,7 +72,7 @@ header a {
     display: flex;
     align-content: center;
     flex-direction: column; 
-     border: 2px dashed red;
+    
 }
 
 .item img{
@@ -87,7 +83,7 @@ header a {
     margin-right: auto;
     margin-left: auto;
     background: #F5F4FA;
-     border: 2px dashed red;
+    
 }
 
 .cont-img{
@@ -101,24 +97,6 @@ header a {
 
 .item p {
     margin: 0;
-}
-
-.btn {
-    cursor: pointer;
-    color: #ffffff;
-    background-color: #2196F3;
-    padding: 10px 20px;
-    border: 2px solid #2196F3;
-    border-radius: 3px;
-}
-
-.btn-estudio{
-    width: 300px;
-    height: 30px;
-    font-weight: 700;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
 }
 
 .button-portafolio:hover,
@@ -193,32 +171,6 @@ body{
     text-align: center;
 }
 
-.divisor3 li {
-    width: 200px;
-    display: inline-block;
-    max-width: 200px;
-    margin: 30px;
-    box-sizing: border-box;
-    width: 270px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background-color: white;
-}
-
-.tam-img2  {
-    padding: 0;
-    text-align: center;
-}
-
-.color {
-    background-color: #F5F4FA;
-}
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-
 h2 {
     text-align:center;
     line-height: 42px;
@@ -233,9 +185,7 @@ h3 {
     font-weight: 700;
     line-height: 1.5;
 }
-                /* font-size:;
-            font-weight:;
-            line-height:;  */
+
 p {
     color: #757575;
     font-size: 16px;
@@ -243,30 +193,83 @@ p {
     line-height: 30px;
 }
 
-h3 .target{
-    Weight: 500;
-    font-Size: 2px;
-    Width: 97px;
-}
 
-.title {
-    color: rgb(255, 255, 255);
-    background: #30303a;
-    text-align-last: center;
-    padding: 100px;
-    margin-top: 8px;
-}
 
 .title2 {
     color: rgb(255, 255, 255);
     Weight:500;
 }
 
-/*Target Nuestro Equipo*/
+            /*Inicio HEADER*/
+.title{
+    color: rgb(255, 255, 255);
+    height: 600px;
+    background: rgba(47, 48, 58, 0.4);
+    padding: 100px;
+    background-image: url(/images/header.jpg);
+    text-align: center;
+    background-size:cover;
+    background-position:center;
+}
 
-/* Fin Icons Company*/
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
 
-/*Iconos Compañias*/
+.btnestudio {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2196F3;
+    padding: 10px 20px;
+    border: 2px solid #2196F3;
+    border-radius: 3px;
+}
+            /*Fin HEADER*/
+
+
+            /*Target Nuestro Equipo*/
+.color {
+    background-color: #F5F4FA;
+}
+
+.tam-img2 {
+    padding: 0;
+    text-align: center;
+}
+
+.divisor3 li {
+    width: 200px;
+    display: inline-block;
+    max-width: 200px;
+    margin: 30px;
+    box-sizing: border-box;
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: white;
+}
+
+h3 .target {
+    Weight: 500;
+    font-Size: 2px;
+    Width: 97px;
+}
+
+.parrafo {
+    padding: 0;
+}
+
+.icons:hover{
+    border: 1px solid #2196F3;
+    border-radius: 20px;
+    fill: #e4f403;
+
+    transition: all ease0.5s;
+}
+            /* Fin Target Nuestro Equipo*/
+
+            /*Iconos Compañias*/
 .company {
     display: flex;
     flex-wrap: wrap;
@@ -275,7 +278,7 @@ h3 .target{
     list-style: none;
     justify-content: space-evenly;
     align-items: ;
-    border: 2px dashed red;
+    
 }
 
 .clientes {
@@ -294,16 +297,22 @@ h3 .target{
     margin-left: auto;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    border: 2px dashed red;
+    
 }
 
 .cont-img {}
+            /* Fin Icons Company*/
 
-/* Fin Icons Company*/
-
+            /*Inicio FOOTER*/
 footer{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    
     width: 100%;
     background: #30303a;
+    
 }
 
 footer a {
@@ -316,7 +325,7 @@ a:link {
 a:isvited {
     text-decoration: none;
 }
-
+            /*Fin FOOTER*/
 
 
 
