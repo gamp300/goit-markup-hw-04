@@ -226,8 +226,7 @@ h1 {
     border-radius: 3px;
 }
             /*Fin HEADER*/
-
-
+/*//////////////////////////////////////////////////////*/
             /*Target Nuestro Equipo*/
 .color {
     background-color: #F5F4FA;
@@ -260,15 +259,29 @@ h3 .target {
     padding: 0;
 }
 
-.icons:hover{
-    border: 1px solid #2196F3;
-    border-radius: 20px;
-    fill: #e4f403;
+.icons path[fill="white"] {
+    fill: #ff0000;
+    /* Cambia #ff0000 al color deseado */
+}
 
+.icons path[fill="white"]:hover{
+    fill: #2196F3;
     transition: all ease0.5s;
+    /* Cambia #ff0000 al color deseado */
+}
+
+.icons g path {
+    fill: black; 
+    /* Cambia #00ff00 al color deseado */
+}
+
+.icons g path:hover{
+    fill: #e4f403;
+    transition: all ease0.5s;
+    /* Cambia #00ff00 al color deseado */
 }
             /* Fin Target Nuestro Equipo*/
-
+/*//////////////////////////////////////////////////////*/
             /*Iconos Compañias*/
 .company {
     display: flex;
@@ -302,7 +315,7 @@ h3 .target {
 
 .cont-img {}
             /* Fin Icons Company*/
-
+/*//////////////////////////////////////////////////////*/
             /*Inicio FOOTER*/
 footer{
     display: flex;
@@ -326,6 +339,6 @@ a:isvited {
     text-decoration: none;
 }
             /*Fin FOOTER*/
-
+/*//////////////////////////////////////////////////////*/
 
 
