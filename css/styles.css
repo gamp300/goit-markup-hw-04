@@ -1,6 +1,7 @@
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .webstudio {
@@ -8,6 +9,7 @@ ul {
     font-size: 26px;
     font-weight: 700;
     color: #2196F3;
+}
 }
 
 .link:hover {
@@ -33,11 +35,7 @@ a{
     align-items: center;
 }
 
-.info {
-    color: #757575;
-    font-weight: 500;
-    line-height: 16px;
-}
+
 
 header a {
     font-family: "Roboto", "Arial", "sans-serif";
@@ -83,10 +81,6 @@ header a {
     margin-right: auto;
     margin-left: auto;
     background: #F5F4FA;
-    
-}
-
-.cont-img{
     
 }
 
@@ -198,12 +192,6 @@ p {
     line-height: 30px;
 }
 
-
-.title2 {
-    color: rgb(255, 255, 255);
-    Weight:500;
-}
-
 /*//////////////////////////////////////////////////////*/
             /*Inicio HEADER*/
 .title{
@@ -255,6 +243,7 @@ h1 {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: white;
+     border: 2px dashed red;
 }
 
 h3 .target {
@@ -267,27 +256,41 @@ h3 .target {
     padding: 0;
 }
 
+.path-white:hover,
+.g-path:hover {
+    fill: #2196F3;
+    transition: all ease 0.5s;
+}
+
+.path-gray:hover,
+.g-path:hover {
+    fill: #EEEEEE;
+    transition: all ease 0.5s;
+}
+
+/*
 .icons path[fill="white"] {
     fill: #ff0000;
-    /* Cambia #ff0000 al color deseado */
+    /* Cambia #ff0000 al color deseado*
 }
 
 .icons path[fill="white"]:hover{
     fill: #2196F3;
     transition: all ease0.5s;
-    /* Cambia #ff0000 al color deseado */
+    /* Cambia #ff0000 al color deseado *
 }
-
+*/
 .icons g path {
-    fill: black; 
+    fill: ; 
     /* Cambia #00ff00 al color deseado */
 }
 
+/*
 .icons g path:hover{
-    fill: #e4f403;
+    fill: #EEEEEE;
     transition: all ease0.5s;
-    /* Cambia #00ff00 al color deseado */
-}
+    /* Cambia #00ff00 al color deseado *
+}*/
             /* Fin Target Nuestro Equipo*/
 /*//////////////////////////////////////////////////////*/
             /*Iconos Compañias*/
@@ -320,24 +323,43 @@ h3 .target {
     border-radius: 4px;
     
 }
-
-.cont-img {}
             /* Fin Icons Company*/
 /*//////////////////////////////////////////////////////*/
             /*Inicio FOOTER*/
 footer{
+    display: inline-block;
     display: flex;
     gap: 50px;
-    justify-content: space-around;
-    align-items: center;
-    
     width: 100%;
     background: #30303a;
+
     
 }
 
 footer a {
     color: white;
+}
+
+.cont-footer{
+    display:flex;
+}
+
+.footer-div {
+    width: auto;
+    display: inline-block;
+    margin: 50px;
+    
+}
+
+.title2{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.info {
+    color: #757575;
+    font-weight: 500;
+    line-height: 16px;
 }
 
 a:link {
