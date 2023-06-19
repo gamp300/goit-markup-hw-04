@@ -10,7 +10,6 @@ ul {
     font-weight: 700;
     color: #2196F3;
 }
-}
 
 .link:hover {
     cursor: pointer;
@@ -129,7 +128,6 @@ body{
     padding: 0;
     list-style: none;
     justify-content: space-evenly;
-     
 }
 
 .divisor li {
@@ -189,7 +187,7 @@ p {
 
 /*//////////////////////////////////////////////////////*/
             /*Inicio HEADER*/
-/*.title{
+.title{
     color: rgb(255, 255, 255);
     height: 600px;
     background: rgba(47, 48, 58, 0.4);
@@ -198,7 +196,7 @@ p {
     text-align: center;
     background-size:cover;
     background-position:center;
-}*/
+}
 
 h1 {
     font-family: 'Raleway', sans-serif;
