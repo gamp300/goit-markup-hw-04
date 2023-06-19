@@ -49,7 +49,6 @@ header a {
     width: 1200px;
     padding: 5px;
     margin: auto;
-      border: 2px dashed red;
 }
 
 .card{
@@ -59,7 +58,6 @@ header a {
     padding: 0;
     list-style: none;
     justify-content: space-evenly;
-      border: 2px dashed red;
 }
 
 .item {
@@ -131,7 +129,7 @@ body{
     padding: 0;
     list-style: none;
     justify-content: space-evenly;
-      border: 2px dashed red;
+     
 }
 
 .divisor li {
@@ -140,7 +138,6 @@ body{
     max-width: 250px;
     margin: 30px;
     box-sizing: border-box;
-     border: 2px dashed red;
 }
 
 .box {
@@ -161,12 +158,10 @@ body{
     max-width: 250px;
     margin: 50px;
     box-sizing: border-box;
-      border: 2px dashed red;
 }
 
 .divisor2{
     text-align: center;
-      border: 2px dashed red;
 }
 
 h2 {
