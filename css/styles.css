@@ -19,6 +19,17 @@ ul {
     line-height: 16px;
 }
 
+.icon-sobre,
+.icon-telefono{
+    cursor: pointer;
+    color: #757575;
+}
+.icon-sobre:hover,
+.icon-telefono:hover{
+    cursor: pointer;
+    color: #2196F3;
+}
+
 .current {
     color: #2196F3;
 }
@@ -33,8 +44,6 @@ a{
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 header a {
     font-family: "Roboto", "Arial", "sans-serif";
@@ -121,6 +130,13 @@ body{
     padding-top: 94px;
 }
 
+/*//////////////////////////////////////////////////////*/
+            /*Inicio Portafolio*/
+.no-spacing {
+    margin-bottom: 0;
+    line-height: 1;
+} 
+
 .divisor {
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +155,15 @@ body{
 }
 
 .box {
+    height: 300px;
+    left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 464px);
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.box:hover{
     height: 300px;
     left: calc(50% - 370px/2 - 400px);
     top: calc(50% - 404px/2 - 464px);
@@ -249,38 +274,43 @@ h3 .target {
     padding: 0;
 }
 
-.icon{
-        display: inline-block;
-        width: 45px;
-        height: 45px;
-        display: inline-block;
-        fill: #AFB1B8;
-        padding: 2px 8px;
-        border-radius: 20px;
-}
-
-.icon2{
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.1);
-    fill: #ffffff;
-    padding: 2px 8px;
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    padding: 6%;
+    margin-bottom: 7px;
     border-radius: 20px;
 }
 
-.icon:hover,
-.icon2:hover{
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    fill: #AFB1B8;
-    padding: 2px 8px;
+.icon-instagram:hover,
+.icon-twitter:hover,
+.icon-facebook:hover,
+.icon-linkedin:hover {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+    margin-bottom: 7px;
     border-radius: 20px;
+    color: #ffffff;
     background-color: #03a9f4;
-    fill: #FFFFFF;
-    transition: all ease0.5s;
+    transition: all ease 0.5s;
+}
+
+.icon-sty{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    padding: 6%;
+    margin-bottom: 7px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
 }
             /* Fin Target Nuestro Equipo*/
 /*//////////////////////////////////////////////////////*/
@@ -293,7 +323,7 @@ h3 .target {
     list-style: none;
     justify-content: space-evenly;
     align-items: ;
-    
+
 }
 
 .clientes {
@@ -303,16 +333,36 @@ h3 .target {
     font-size: 20PX;
 }
 
-.item2 img {
-    Width: 140px;
-    Height: 81px;
-    padding: 20px;
+.icon-union1,
+.icon-union2,
+.icon-union3,
+.icon-union4,
+.icon-union5,
+.icon-union6{
+    width: 170px;
+    height: 81px;
+    font-size: 41px;
     border-radius: 4px;
-    margin-right: auto;
-    margin-left: auto;
     border: 1px solid #AFB1B8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+}
+
+.icon-union1:hover,
+.icon-union2:hover,
+.icon-union3:hover,
+.icon-union4:hover,
+.icon-union5:hover,
+.icon-union6:hover{    
     border-radius: 4px;
-    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #2196F3;
+    color: #2196F3;
+    transition: all ease 0.5s;
 }
             /* Fin Icons Company*/
 /*//////////////////////////////////////////////////////*/
@@ -323,8 +373,7 @@ footer{
     gap: 50px;
     width: 100%;
     background: #30303a;
-
-    
+ 
 }
 
 footer a {
@@ -361,5 +410,3 @@ a:isvited {
 }
             /*Fin FOOTER*/
 /*//////////////////////////////////////////////////////*/
-
-
