@@ -27,6 +27,7 @@
 
 .icon-antena .path1:before {
   content: "\e905";
+  color: rgb(33, 33, 33);
 }
 .icon-antena .path2:before {
   content: "\e906";

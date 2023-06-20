@@ -71,22 +71,23 @@ header a {
 .item {
     flex-basis: calc((70% - 20px) / 3);
     padding: 9px;
-
+    background-color: #fff;
     border-radius: 4px;
     display: flex;
     align-content: center;
     flex-direction: column; 
-     
+    
 }
 
-.cont-img{
+.item img{
     width: 260px;
     height: 120px;
     padding:20px 90px;
     border-radius: 4px;
     margin-right: auto;
     margin-left: auto;
-    background: #F5F4FA;    
+    background: #F5F4FA;
+    
 }
 
 .item h2 {
