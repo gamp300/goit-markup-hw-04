@@ -6,6 +6,13 @@ ul {
 
 /*//////////////////////////////////////////////////////
             Inicio Menu*/
+.menu {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .webstudio {
     font-family: Raleway;
     font-size: 26px;
@@ -21,27 +28,16 @@ ul {
     line-height: 16px;
 }
 
-.salto {
-    white-space: pre-line;
-}
-
-.icon-sobre{
-    Width:16px;
-    Height:12px;
-    cursor: pointer;
-    fill: #757575;
-}
-
+.icon-sobre,
 .icon-telefono{
-    Width:10px;
-    Height:16px;
+    width: 15px;
+    height: 15px;
     cursor: pointer;
     fill: #757575;
 }
-
 .icon-sobre:hover,
 .icon-telefono:hover{
-    width: 30px;
+    width: 15px;
     cursor: pointer;
     fill: #2196F3;
 }
@@ -52,13 +48,6 @@ ul {
 
 a{
     color: #212121;
-}
-
-.menu {
-    display: flex;
-    gap: 50px;
-    justify-content: space-around;
-    align-items: center;
 }
 
 header a {
@@ -422,6 +411,10 @@ footer a {
     color: #03a9f4;
 }
 
+.salto {
+    white-space: pre-line;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -430,6 +423,3 @@ a:isvited {
 }
             /*Fin FOOTER*/
 /*//////////////////////////////////////////////////////*/
-.icon-antena{
-    fill: black
-}
