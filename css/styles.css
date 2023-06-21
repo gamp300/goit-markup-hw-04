@@ -4,6 +4,8 @@ ul {
     padding-left: 0;
 }
 
+/*//////////////////////////////////////////////////////
+            Inicio Menu*/
 .webstudio {
     font-family: Raleway;
     font-size: 26px;
@@ -23,15 +25,25 @@ ul {
     white-space: pre-line;
 }
 
-.icon-sobre,
-.icon-telefono{
+.icon-sobre{
+    Width:16px;
+    Height:12px;
     cursor: pointer;
-    color: #757575;
+    fill: #757575;
 }
+
+.icon-telefono{
+    Width:10px;
+    Height:16px;
+    cursor: pointer;
+    fill: #757575;
+}
+
 .icon-sobre:hover,
 .icon-telefono:hover{
+    width: 30px;
     cursor: pointer;
-    color: #2196F3;
+    fill: #2196F3;
 }
 
 .current {
@@ -83,7 +95,7 @@ header a {
     
 }
 
-.item img{
+.icon{
     width: 260px;
     height: 120px;
     padding:20px 90px;
