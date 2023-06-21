@@ -19,6 +19,10 @@ ul {
     line-height: 16px;
 }
 
+.salto {
+    white-space: pre-line;
+}
+
 .icon-sobre,
 .icon-telefono{
     cursor: pointer;
@@ -402,6 +406,10 @@ footer a {
     line-height: 16px;
 }
 
+.link-footer:hover{
+    color: #03a9f4;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -410,3 +418,6 @@ a:isvited {
 }
             /*Fin FOOTER*/
 /*//////////////////////////////////////////////////////*/
+.icon-antena{
+    fill: black
+}
