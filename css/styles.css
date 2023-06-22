@@ -33,13 +33,24 @@ ul {
     width: 15px;
     height: 15px;
     cursor: pointer;
-    fill: #757575;
 }
 .icon-sobre:hover,
 .icon-telefono:hover{
     width: 15px;
+    height: 15px;
     cursor: pointer;
-    fill: #2196F3;
+}
+.email-link,
+.tel-link {
+    width: 15px;
+    height: 15px;
+    color: #757575;
+    fill:#757575 /* Cambia este valor al color deseado */
+}
+.email-link:hover,
+.tel-link:hover {
+    color: #2196F3;
+    fill: #2196F3; /* Cambia este valor al color deseado */
 }
 
 .current {
