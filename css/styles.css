@@ -279,43 +279,36 @@ h3 .target {
     padding: 0;
 }
 
-.icon-instagram,
-.icon-twitter,
-.icon-facebook,
-.icon-linkedin {
+.icon-redes {
+    width: 44px;
+    height: 44px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: #AFB1B8;
-    padding: 6%;
-    margin-bottom: 7px;
-    border-radius: 20px;
+    fill: #AFB1B8;
+    padding: 9px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-.icon-instagram:hover,
-.icon-twitter:hover,
-.icon-facebook:hover,
-.icon-linkedin:hover {
+.icon-redes:hover,
+.icon-redesfooter:hover{
+    width: 44px;
+    height: 44px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 6%;
-    margin-bottom: 7px;
-    border-radius: 20px;
-    color: #ffffff;
+    padding: 9px;
+    margin-bottom: px;
+    border-radius: 50%;
+    fill: #ffffff;
     background-color: #03a9f4;
     transition: all ease 0.5s;
 }
 
-.icon-sty{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #AFB1B8;
-    padding: 6%;
-    margin-bottom: 7px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
+.i-redes{
+    width: 20px;
+    height: 20px;
 }
             /* Fin Target Nuestro Equipo*/
 /*//////////////////////////////////////////////////////*/
@@ -338,12 +331,7 @@ h3 .target {
     font-size: 20PX;
 }
 
-.icon-union1,
-.icon-union2,
-.icon-union3,
-.icon-union4,
-.icon-union5,
-.icon-union6{
+.icon-union {
     width: 170px;
     height: 81px;
     font-size: 41px;
@@ -352,22 +340,22 @@ h3 .target {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: #AFB1B8;
+    fill: #AFB1B8;
 }
 
-.icon-union1:hover,
-.icon-union2:hover,
-.icon-union3:hover,
-.icon-union4:hover,
-.icon-union5:hover,
-.icon-union6:hover{    
+.icon-union:hover{    
     border-radius: 4px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border-color: #2196F3;
-    color: #2196F3;
+    fill: #2196F3;
     transition: all ease 0.5s;
+}
+
+.i-union{
+    Width: auto;
+    Height: 46.7px;
 }
             /* Fin Icons Company*/
 /*//////////////////////////////////////////////////////*/
@@ -413,6 +401,30 @@ footer a {
 
 .salto {
     white-space: pre-line;
+}
+
+.icon-sty{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    padding: 6%;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    ;
+}
+
+.icon-redesfooter {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+    padding: 9px;
+    margin-bottom: px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1)
 }
 
 a:link {
